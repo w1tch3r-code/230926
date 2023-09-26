@@ -1,0 +1,51 @@
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+main {
+    /* background: #000 url('./../img/laptop.jpg') center / cover no-repeat; */
+    position: relative;
+} 
+
+main img {
+    width: 100vw;
+    height: 100vh;
+}
+
+main div {
+    position: absolute;
+    width: 50vw;
+    text-align: center;
+    top: 20vh;
+    left: 50vw;
+    right: 50vw;
+    transform: translate(-25vw);
+    color: white;
+    background-color: rgba(100, 100, 100, 0.7);
+    padding: 1.5em 0.5em;
+}
+
+main div h1, main div p {
+    font-size: 2rem;
+}
+

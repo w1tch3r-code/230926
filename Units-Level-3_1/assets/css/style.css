@@ -1,0 +1,65 @@
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ========================================================== 
+                            Fonts
+========================================================== */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./../fonts/Roboto-Regular.ttf');
+}
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+body {
+    font-family: 'Roboto';
+    
+}
+
+main {
+    padding: 5%;
+    height: 100vh;
+    background: #000 url('./../img/background.jpg') center / cover no-repeat;
+}
+
+main h1 {
+    font-size: 2rem;
+    padding-inline: 15%;
+    text-align: center;
+    text-shadow: white 1px 1px;
+}
+
+main article {
+    padding: 2%;
+    margin-inline: 100px;
+    margin-top: 20px;
+    border-radius: 5rem;
+    text-align: center;
+    background-color: rgba(240, 128, 128, 0.5);
+}
+
+main article h2 {
+    font-size: 1.5em;
+    padding-block: 0.5em;
+}
+
+main article p {
+    font-size: 14px;
+    padding-block: 0.5em;
+}
+

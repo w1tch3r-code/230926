@@ -1,0 +1,81 @@
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    padding-block: 1em;
+    padding-inline: 1em;
+}
+
+h1 {
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.2em;
+    padding-bottom: 1em;
+}
+
+.pets {
+    border: 4px solid black;
+    padding: 1em;
+    font-size: 1.5rem;
+}
+
+.pets ul {
+    padding-inline-start: 1.2em;
+    list-style-type: none;
+}
+
+.pets ul li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.dog li, .cat li, .parrot li, .snake li, .lizzard li {
+    margin-left: -1.5em;
+}
+
+.dog li::before {
+    content: '🐶';
+    padding-right: 0.5em;
+}
+
+.cat li::before {
+    content: '🐱';
+    padding-right: 0.5em;
+}
+
+.parrot li::before {
+    content: '🦜';
+    padding-right: 0.5em;
+}
+
+.snake li::before {
+    content: '🐍';
+    padding-right: 0.5em;
+}
+
+.lizzard li::before {
+    content: '🦎';
+    padding-right: 0.5em;
+}
