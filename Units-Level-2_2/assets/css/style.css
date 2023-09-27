@@ -19,18 +19,13 @@ a {
 
 body {
     font-family: sans-serif;
-    overflow: hidden;
 }
 
 main {
-    /* background: #000 url('./../img/laptop.jpg') center / cover no-repeat; */
+    background: #000 url('./../img/laptop.jpg') center / cover no-repeat;
     position: relative;
+    min-height: 100vh;
 } 
-
-main img {
-    width: 100vw;
-    height: 100vh;
-}
 
 main div {
     position: absolute;
@@ -45,7 +40,7 @@ main div {
     padding: 1.5em 0.5em;
 }
 
-main div h1, main div p {
+main div h1, main div address {
     font-size: 2rem;
 }
 
